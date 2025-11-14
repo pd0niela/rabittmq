@@ -32,7 +32,7 @@ RabbitMQ gestionează comunicarea prin cinci cozi:
 - game_actions – pentru acțiuni generale (intrare în joc, reset, etc.)
 
 Fiecare coadă RabbitMQ are un thread separat care ascultă și procesează mesajele.  
-Când un jucător efectuează o acțiune (ex. se mișcă, plasează o bombă, trimite un mesaj), serverul trimite un mesaj în coada corespunzătoare, iar consumatorul respectiv actualizează starea jocului, vizibilă pentru toți jucătorii.
+Când un jucător efectuează o acțiune (ex. se mișcă, plasează o bombă, trimite un mesaj), serverul trimite un mesaj în coada corespunzătoare, iar consumatorul respectiv actualizează starea jocului, vizibilă pentru toți jucătorii..
 
 ## Rezumat
 
